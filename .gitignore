@@ -1,33 +1,63 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# VS
+.vs/
+DTAR_*/
+*.suo
+*.user
+[Bb]in/
+[Oo]bj/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Backup
+*.bak
+*.trn
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Zip
+*.zip
+*.rar
+*.7z
+*.iso
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Asp.Net Core
+*.lock.json
+*.nuget.props
+*.nuget.targets
+artifacts/
+node_modules/
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Asp.Net
+ClientBin/
+Generated_Code/
 
-# Debug files
-*.dSYM/
-*.su
+# Test project
+TestResults/
+
+# Database project
+*.dbmdl
+Import Schema Logs/
+
+# Database
+*.dsn
+*.accdb
+
+# Nuget
+packages/
+# Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
+# !packages/*/build/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Old VS Installer
+# [Dd]ebug/
+# [Rr]elease/
+
+# TFS
+*.vspscc
+*.vssscc
+*.scc
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
